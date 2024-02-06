@@ -1,0 +1,15 @@
+{
+  "name": "mailing-list",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "googleapis": "^132.0.0"
+  }
+}

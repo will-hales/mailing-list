@@ -1,0 +1,82 @@
+:root {
+    /* Fonts */
+    --body-font: 'Arial', sans-serif; /* Update with your preferred body font */
+    --header-font: 'Roboto', sans-serif; /* Update with your preferred header font */
+
+    /* Hex Colors */
+    --background-color: #f4f4f4; /* Page background color */
+    --header-bg-color: #333; /* Header background color */
+    --header-text-color: #ffffff; /* Header text color */
+    --form-container-shadow: rgba(0, 0, 0, 0.1); /* Form container box shadow */
+    --button-bg-color: #4CAF50; /* Button background color */
+    --button-text-color: #ffffff; /* Button text color */
+}
+
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+}
+
+h2 {
+    font-family: var(--header-font);
+}
+
+p {
+    font-family: var(--body-font);
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+
+header {
+    padding: 10px;
+    text-align: left;
+    color: var(--header-text-color);
+    background-color: var(--header-bg-color);
+}
+
+header img {
+    width: 45px;
+    height: auto;
+}
+
+/* Form */
+
+.form-container {
+    padding: 20px;
+    box-shadow: 0 0 10px var(--form-container-shadow);
+}
+
+form {
+    margin-top: 25px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0px 15px 0;
+    box-sizing: border-box;
+}
+
+button {
+    float: right;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+}
+
