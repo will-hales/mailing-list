@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios'
 
 export default async (req, context) => {
     const scriptURL = process.env.GOOGLE_SHEET_URL;
