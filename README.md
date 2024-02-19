@@ -1,5 +1,8 @@
 # Mailing List 
 
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/will-hales/mailing-list)
+
 This is an open sourced product that allows you to simply create a page capable of collecting user data for a mailing list. 
 
 TODO: 
