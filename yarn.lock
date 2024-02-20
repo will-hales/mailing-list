@@ -1674,7 +1674,7 @@ ordered-binary@^1.4.1:
 
 parcel@^2.11.0:
   version "2.11.0"
-  resolved "https://registry.npmjs.org/parcel/-/parcel-2.11.0.tgz"
+  resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.11.0.tgz#9448269b677d7ba251c92a2a5ce4539fcf0dbf5c"
   integrity sha512-H/RI1/DmuOkL8RuG/EpNPvtzrbF+7jA/R56ydEEm+lqFbYktKB4COR7JXdHkZXRgbSJyimrFB8d0r9+SaRnj0Q==
   dependencies:
     "@parcel/config-default" "2.11.0"

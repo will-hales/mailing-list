@@ -24,6 +24,7 @@ body {
 
 h2 {
     font-family: var(--header-font);
+    color: #e75a83;
 }
 
 p {
@@ -40,14 +41,14 @@ main {
 /* Header */
 
 header {
-    padding: 10px;
+    padding: 2ch 35px;
     text-align: left;
     color: var(--header-text-color);
-    background-color: var(--header-bg-color);
+    background-color: #fff;
 }
 
 header img {
-    width: 45px;
+    width: 200px;
     height: auto;
 }
 
@@ -56,6 +57,9 @@ header img {
 .form-container {
     padding: 20px;
     box-shadow: 0 0 10px var(--form-container-shadow);
+    background-color: #245b80;
+    color: #ffffff;
+    border-radius: 6px;
 }
 
 form {
@@ -67,6 +71,8 @@ input {
     width: 100%;
     margin: 5px 0px 15px 0;
     box-sizing: border-box;
+    border-radius: 6px;
+    border: 0;
 }
 
 button {
@@ -77,6 +83,7 @@ button {
     border-radius: 5px;
     padding: 10px 20px;
     color: var(--button-text-color);
-    background-color: var(--button-bg-color);
+    font-weight: 800;
+    background-color: #ff6f61;
 }
 
